@@ -1,4 +1,4 @@
-# **Leveraging Google Gemini for PDF-Based Chatbots: A Python Implementation**
+# **Leveraging Google Gemini for PDF-Based Chatbots: Financial Statement Analysis**
 
 **Abstract:**
 
