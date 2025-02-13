@@ -1,14 +1,14 @@
-Empowering Information Access: A PDF-Based Chatbot System with Google Gemini
+# **Empowering Information Access: A PDF-Based Chatbot System with Google Gemini**
 
-Abstract:
+**Abstract:**
 
 This project describes a chatbot system that leverages Google Gemini, a powerful large language model (LLM), to unlock insights hidden within PDF documents. This system seamlessly integrates PDF text extraction with Gemini's conversational capabilities, enabling users to interact with information extracted from PDFs in a natural and intuitive way. This paper delves into the system's architecture, functionality, and potential applications within diverse fields.
 
-Introduction:
+**Introduction:**
 
 PDF documents are widely used for storing vast amounts of information across industries. However, accessing and utilizing this information often requires manual effort. This paper presents a system that addresses this challenge by employing Google Gemini, an advanced LLM, to create an interactive chatbot that can analyze and respond to queries based on PDF content. This approach eliminates the need for manual review and extraction, streamlining information access and analysis.
 
-System Architecture:
+**System Architecture:**
 
 The system's core functionality revolves around two key processes:
 
@@ -16,15 +16,15 @@ PDF Text Extraction: The system employs a dedicated module to extract textual co
 
 Chatbot Initialization and Context Provision: Leveraging the extracted text, the system initializes a chat session with Google Gemini. It feeds the text content as context to the chatbot, essentially providing it with the knowledge base necessary to understand and respond to user queries related to the PDF document.
 
-Usage and Workflow:
+**Usage and Workflow:**
 
 The system is designed for interactive use. After configuring the system with the user's Google Gemini API key, it prompts the user to specify the path to the desired PDF document. Upon receiving the input, the system initiates the text extraction process, followed by chatbot initialization using the extracted text as context. Users can then engage in a natural language conversation with the chatbot, asking questions and receiving insightful responses based on the information contained within the PDF.
 
-Rate Limiting and Robustness:
+**Rate Limiting and Robustness:**
 
-To ensure seamless operation and prevent service disruptions, the system incorporates robust error handling and rate limiting mitigation strategies. It employs a retry mechanism with exponential backoff to gracefully handle potential API usage limits, ensuring the system remains responsive and reliable even under heavy usage.
+To ensure seamless operation and prevent service disruptions, the system incorporates robust error handling and rate-limiting mitigation strategies. It employs a retry mechanism with exponential backoff to gracefully handle potential API usage limits, ensuring the system remains responsive and reliable even under heavy usage.
 
-Applications and Future Directions:
+**Applications and Future Directions:**
 
 This PDF-based chatbot system holds immense potential across various domains, including:
 
