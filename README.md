@@ -1,4 +1,4 @@
-# **Empowering Information Access: A PDF-Based Chatbot System with Google Gemini**
+# **Leveraging Google Gemini for PDF-Based Chatbots: A Python Implementation**
 
 **Abstract:**
 
